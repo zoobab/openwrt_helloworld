@@ -9,7 +9,7 @@ int main()
 {
 	std::string s;
 
-	s = "Hello world, this is a C++14 test from QtCreator";
+	s = "Hello world!";
 	std::cout << s << std::endl;
 
 	std::unique_ptr<MyClass> myClassInstance = std::make_unique<MyClass>();
